@@ -6,11 +6,54 @@
 		структура HTML страницы
 		</title>
 	</head>
-	<body bgcolor = 0xFF>
+	<body bgcolor = c0c0c0>
 		<h1>Лаба 1. табличная верстка</h1>
 		<p><b>Лабу выполнили студенты группы КИУКИ-16-3: Даниленко, Загорулько, Квасов, Нефедченко </b> </p>
 		<table width = 100% border = "1">
-			<tr> <td colspan="2" align="center"> тест </td></tr>
+			<tr>
+				<td colspan="3" align="center"> тест </td>
+			</tr>
+			<tr> <td align="center"> Структура </td> 
+				 <td align="center"> Контент </td> 
+				 <td align="center"> Контент </td>
+			</tr>
+			
+			<tr> <td align="left">  
+					<ul type = "circle">
+						<li  type="disc">item 1</li>
+						<li  type="disc">item 2</li>
+						<li  type="disc">item 3</li>
+						<li  type="disc">item 4</li>
+						<li  type="disc">item 5</li>
+						<li  type="disc">item 6</li>
+					</ul>
+				 </td> 
+				 <td align="center"> Контент1 <br>
+					<img src="index.jpg" width="120" height="120" border = "3">
+					<br>
+					Контент1 <br>
+					<img src="index.jpg" width="120" height="120" border = "3">
+					<br>
+					Контент1 <br>
+					<img src="index.jpg" width="120" height="120" border = "3">
+					<br>
+				 </td> 
+				 
+				 <td align="center">  
+					<form action = "handler.php">
+						<b><i> Получим ли мы зачет?</i></b>
+						<br>
+							<input type = "radio" name= "answer" value="a1">Yes&nbsp
+	
+						<br>
+							<input type = "radio" name= "answer" value="a2">Yes!
+						<br>
+						<input type = "submit">
+					</form>
+				 </td>
+			</tr>
+			
+			
 			
 	</body>
 </html>
